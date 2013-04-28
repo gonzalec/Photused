@@ -1,6 +1,11 @@
-# angular-seed — the seed for AngularJS apps
+# Photused - Find who and where are using referencing or using your photos
 
-This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
+
+This project is made using AngularJS](http://angularjs.org/).
+
+From Angular seed...:
+
+
 You can use it to quickly bootstrap your angular webapp projects and dev environment for these
 projects.
 
