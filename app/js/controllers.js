@@ -2,10 +2,19 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
+photusedApp.controller('PhotoListCtrl', 
+  function ($scope, FlickrServices) {
 
-  }])
-  .controller('MyCtrl2', [function() {
+    $scope.photos = FlickrServices.get();
 
-  }]);
+    console.log($scope.photos);
+
+});
+
+// angular.module('myApp.controllers', []).
+//   controller('MyCtrl1', [function() {
+
+//   }])
+//   .controller('MyCtrl2', [function() {
+
+//   }]);
